@@ -2,34 +2,37 @@
 #outer {
 	width: 300px;
 	height: 300px;
-	background-color: #ff0000;
+	background-color: rgb(255, 165, 0);
+	border: 25px solid rgb(255, 0, 0);
 	border-radius: 50%;
 	display: flex;
 	justify-content: center;
 	align-items: center
 }
 
-#middle {
+/* #outer {
 	width: 250px;
 	height: 250px;
-	background-color: #ffa500;
+	background-color: rgb(255, 165, 0);
 	border-radius: 50%;
 	display: flex;
 	justify-content: center;
 	align-items: center
 }
-
-#inner {
+ */
+#middle {
 	width: 200px;
 	height: 200px;
-	background-color: #ffff00;
+	background-color: rgb(0, 128, 0);
+	border: 25px solid rgb(255, 255, 0);
 	border-radius: 50%;
 	display: flex;
 	justify-content: center;
-	align-items: center
+	align-items: center;
+	margin: 25px;
 }
 
-#inner1 {
+/* #middle {
 	width: 150px;
 	height: 150px;
 	background-color: #008000;
@@ -37,21 +40,23 @@
 	display: flex;
 	justify-content: center;
 	align-items: center
-}
+} */
 
-#inner2 {
+#inner {
 	width: 100px;
 	height: 100px;
-	background-color: #0000ff;
+	background-color: rgb(128, 0, 128);
+	border: 25px solid rgb(0, 0, 255);
 	border-radius: 50%;
 	display: flex;
 	justify-content: center;
-	align-items: center
+	align-items: center;
+	margin: 25px;
 }
 
-#inner3 {
+/* #inner {
 	width: 50px;
 	height: 50px;
-	background-color: rgb(128, 0, 128);
+	background-color: #800080;
 	border-radius: 50%;
-}
+} */
